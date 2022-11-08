@@ -1,0 +1,21 @@
+{
+  // Use IntelliSense para saber los atributos posibles.
+  // Mantenga el puntero para ver las descripciones de los existentes atributos.
+  // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+
+  // ************ACA PUEDO CONFIGURAR LA DEPURACION PARA ESTE PROYECTO Y COMO SE COMPORTA***********
+
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\app.js",
+      // "restart": true, //Se debe agregar otros campos
+      // "runtimeExecutable": "nodemon", //Me aseguro que uso nodemon,y asi se reiniciara el depurador cuando se detecte un cambio
+      // "console": "integratedTerminal" //
+    }
+  ]
+}
